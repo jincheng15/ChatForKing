@@ -1,0 +1,10 @@
+spring:
+  devtools:    #热启动
+    restart:
+      enabled: true
+      additional-paths: src/main/java
+#日志配置文件
+logging:
+  config: classpath:logback-spring.xml
+server:
+  port: 8080
